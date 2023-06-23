@@ -1,0 +1,259 @@
+/* Reset default browser styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Global styles */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Header */
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgb(102, 129, 141);
+}
+
+
+/* Home Section */
+
+#home {
+    text-align: center;
+    padding: 40px 0;
+    color: rgb(75, 0, 0);
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+
+#home h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+#home p {
+    font-size: 18px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+
+/* Destinations Section */
+
+#destinations {
+    padding: 40px 0;
+}
+
+#destinations h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+#destinations article {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    padding: 20px;
+    background-color: rgb(206, 162, 229);
+    box-shadow: 0 2px 4px rgba(149, 21, 21, 0.1);
+    animation: slideInLeft 1s ease-in-out;
+}
+
+#destinations h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#destinations p {
+    font-size: 16px;
+}
+
+
+/* Gallery Section */
+
+#gallery {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-container img {
+    max-width: 300px;
+    height: auto;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+
+/* Contact Section */
+
+#contact {
+    padding: 40px 0;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+
+/* Animations */
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/* Additional Styles */
+
+
+/*
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: rgb(15, 138, 50);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+*/

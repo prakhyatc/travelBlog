@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to Prakhyat's Travelogue</h1>
+        <p>Join me as I dive into vibrant cultures, discover hidden gems, and get lost in breathtaking landscapes.<br> Let the wanderlust guide our souls on this incredible journey together.</p>
+    </section>
+
+    <section id="destinations">
+        <h2>Destinations</h2>
+        <article>
+            <h3>Austin</h3>
+            <p>Austin, a city that captivated my heart in 2022. As I stood in awe of the magnificent State Capitol, its grandeur and rich history echoed through every corner. The vibrant energy of Austin's streets filled me with a sense of adventure, from
+                live music pouring out of every venue to the mouthwatering flavors of local cuisine.</p>
+            <a href="#austin-details">Read More</a>
+        </article>
+        <article>
+            <h3>Denver</h3>
+            <p>Denver, a city that left an indelible mark on my soul. In 2023, I found myself immersed in the breathtaking beauty of the Rocky Mountains as I explored the vibrant streets of Denver. From the picturesque views atop Red Rocks Amphitheatre to
+                the awe-inspiring exhibits at the Denver Art Museum, every moment was a testament to the city's vibrant culture.</p>
+            <a href="#denver-details">Read More</a>
+        </article>
+        <article>
+            <h3>Oklahoma</h3>
+            <p>Oklahoma, a hidden gem that captivated my heart. In my journey to Oklahoma, I discovered the enchanting beauty of Turner Falls, where nature's cascading waters embraced me with tranquility. The thrill of testing my luck at the lively casinos
+                and the joy of savoring delectable dishes at charming local restaurants created unforgettable memories. Oklahoma's rich Native American heritage and warm hospitality added depth to my experience, making it a place I will always hold dear.</p>
+            <a href="#oklahoma-details">Read More</a>
+        </article>
+        <!-- Add more destinations here -->
+    </section>
+
+    <section id="gallery">
+        <h2>Moments</h2>
+        <div class="image-container">
+            <img src="image1.jpg" alt="Image 1">
+            <img src="image2.jpg" alt="Image 2">
+            <img src="image3.jpg" alt="Image 3">
+            <!-- Add more images here -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Prakhyat Chaube. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
